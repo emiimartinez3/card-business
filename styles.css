@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    display: grid;
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px 3px rgba(173,173,173,1);;
+}
+
+.block1 .card-img{
+    background-image: url(./hero-image-business-card.png);
+    background-size: cover;
+    min-width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.block1 .card-img svg{
+    position: relative;
+    top: 185px;
+}
+
+svg{
+    max-width: 100%;
+}
+
+.title{
+    font-family: "Quicksand", sans-serif;
+    font-size: 27px;
+    padding-left: 30px;
+}
+
+.content{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    opacity: .65;
+    padding: 20px 30px 0px 30px;
+}
+.block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+}
+
+.data .name{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+.data .description{
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    opacity: .6;
+}
